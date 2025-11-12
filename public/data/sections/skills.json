@@ -23,12 +23,11 @@
             "id": 1,
             "img": "",
             "faIcon": "fa-brands fa-cloudflare",
-            "light": {"bg": "#ffffff", "fill": "#1572B6"},
-            "dark": {"bg": "#111111", "fill": "#ffffff"},
+            "faIconColors": {"bg": "", "fill": ""},
             "date": {"year": null, "month": null},
             "locales": {
                 "en": {
-                    "title": "{{IT Service Management}}",
+                    "title": "{{IT}} Service Management",
                     "text": "Experienced in ITSM processes for retail operations, handling incidents, service requests, and ensuring reliable IT system performance."
                 }
             }
@@ -37,7 +36,7 @@
         {
             "id": 2,
             "img": "",
-            "faIcon": "fa-brands fa-database",
+            "faIcon": "fa-solid fa-database",
             "faIconColors": {"bg": "", "fill": ""},
             "date": {"year": null, "month": null},
             "link": {"href": "", "tooltipString": ""},
@@ -70,7 +69,7 @@
     "id": 1,
     "component": "ArticleSkills",
     "locales": {
-        "en": {"title": "{{Other}} Skills"}
+        "en": {"title": "Other {{Skills}}"}
     },
     "settings": {
         "max_items_per_row": 3,
@@ -147,6 +146,20 @@
             "locales": {
                 "en": {
                     "title": "C++",
+                    "text": "blablabla.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 6,
+            "img": "",
+            "faIcon": "fa-brands fa-python",
+            "faIconColors": {"bg": "",  "fill": "#D4A017"},
+            "date": {"year": 2024, "month": 1},
+            "locales": {
+                "en": {
+                    "title": "Python",
                     "text": "blablabla.",
                     "level": ""
                 }

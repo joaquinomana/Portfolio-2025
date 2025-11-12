@@ -90,12 +90,12 @@
             "img": "",
             "faIcon": "fa-brands fa-",
             "faIconColors": {"bg": "#000", "bgLight": "#000", "fill": "#FFF", "fillLight": "#FFF"},
-            "date": {"year": 2024, "month": 6},
+            "date": {"year": 2023, "month": 1},
             "link": {"href": "", "tooltipString": ""},
             "locales": {
                 "en": {
                     "title": "Introduction to {{Microsoft Azure Cloud Services}} ",
-                    "text": "I am a certified Apple developer with expertise in iOS and macOS development."
+                    "text": "Lorem."
                 }
             }
         },

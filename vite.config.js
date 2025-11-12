@@ -29,6 +29,10 @@ export default defineConfig({
       },
     },
   },
+<<<<<<< HEAD
 });
 
 
+=======
+});
+>>>>>>> 2b70942 (Update)

@@ -10,6 +10,48 @@
         }
     },
     "articles": [
+        {
+    "id": 1,
+    "component": "ArticleTimeline",
+    "locales": {
+        "en": {
+            "title": "My {{timeline}}"
+        }
+    },
+    "settings": {
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "",
+            "faIcon": "fa-brands fa-apple",
+            "faIconColors": {"bg": "#000", "bgLight": "#000", "fill": "#FFF", "fillLight": "#FFF"},
+            "dateStart": {"year": 2023, "month": 8},
+            "dateEnd": {"year": 2025, "month": 10},
+            "locales": {
+                "en": {
+                    "title": "{{Retail Store Operations}}",
+                    "province": "Taguig",
+                    "country": "PH",
+                    "institution": "DXC Technology",
+                    "text": "Currently working as a Senior Backend Developer at Apple Inc. I do stuff like:",
+                    "list": [
+                        "Designing and implementing scalable backend systems",
+                        "Optimizing database performance",
+                        "Collaborating with cross-functional teams to deliver high-quality software solutions"
+                    ],
+                    "tags": [
+                        "SQL",
+                        "Tag 2",
+                        "Tag 3"
+                    ]
+                }
+            }
+        }
+    ]
+}
 
         
     ]
