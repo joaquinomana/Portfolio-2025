@@ -1,0 +1,120 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "About Me",
+                "title_short_nav": "About Me",
+                "title_long_prefix": "Hello!",
+                "title_long": "I'm {{Joaquin Omana}}"
+            }
+        }
+    },
+    "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Laguna - Philippines",
+          "link": {
+            "href": "",
+            "tooltipString": ""
+          },
+          "faIcon": "fa-regular fa-address-book"
+        },
+        {
+          "id": 2,
+          "label": "joaquinomana2021@gmail.com",
+          "link": {
+            "href": "mailto:joaquinomana2021@gmail.com",
+            "tooltipString": "email_me"
+          },
+          "faIcon": "fa-regular fa-envelope"
+        },
+        {
+          "id": 3,
+          "label": "joaquin-omaña",
+          "link": {
+            "href": "https://www.linkedin.com/in/joaquin-omaña",
+            "tooltipString": "connect_with_me"
+          },
+          "faIcon": "fa-brands fa-linkedin"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": {
+          "title": "{{A little bit}} about me..."
+        }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+    "id": 1,
+    "img": "images/content/cover_text_image.png",
+    "faIcon": "",
+    "faIconColors": {"bg": "", "fill": "", "fillLight": ""},
+    "locales": {
+        "en": {
+            "text": "<p>Hello! I'm <strong>Joaquin Omaña</strong>, an IT professional focused on <em>Retail Store Operations</em> and application support. I specialize in handling systems such as EPOS, BBO, CRM, and Database management — ensuring smooth and efficient store operations. Passionate about technology and continuous learning, I strive to bridge IT systems with business operations to deliver excellent results.</p>"
+        }
+    }
+}
+      ]
+    },
+
+    {
+    "id": 3,
+    "component": "ArticleCards",
+    "locales": {},
+    "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "",
+            "faIcon": "fa-brands fa-",
+            "faIconColors": {"bg": "#000", "bgLight": "#000", "fill": "#FFF", "fillLight": "#FFF"},
+            "date": {"year": 2024, "month": 6},
+            "link": {"href": "", "tooltipString": ""},
+            "locales": {
+                "en": {
+                    "title": "Introduction to {{Microsoft Azure Cloud Services}} ",
+                    "text": "I am a certified Apple developer with expertise in iOS and macOS development."
+                }
+            }
+        },
+
+        {
+            "id": 2,
+            "img": "",
+            "faIcon": "fa-brands fa-microsoft",
+            "faIconColors": {"bg": "red", "bgLight": "red", "fill": "white", "fillLight": "white"},
+            "date": {"year": 2019, "month": 5},
+            "link": {"href": "", "tooltipString": ""},
+            "locales": {
+                "en": {
+                    "title": "{{Microsoft}} Technology Associate: Networking Fundamentals",
+                    "text": "As a Microsoft Technology Associate in Networking Fundamentals, I gained a solid understanding of core networking concepts, including network infrastructure, protocols, and troubleshooting techniques. This certification strengthened my ability to design, configure, and maintain reliable networks."
+                }
+            }
+        }
+    ]
+}
+  ]
+}
