@@ -1,0 +1,22 @@
+{
+    "name": "Joaquin Omana",
+    "profilePictureUrl": "images/content/pfp.png",
+    "resumePdfUrl": "https://joaquinomana.github.io/Portfolio/CV_Omana.pdf",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+    "locales": {
+        "en": {
+            "localized_name": "Joaquin Omana",
+            "localized_name_stylized": "<strong>Joaquin {{Omana}}</strong>",
+            "status_message_available_for_freelance": "Looking for New Opportunities!",
+            "roles": [
+                "Computer Engineer",
+                "Gamer",
+                "Tech Enthusiast"
+            ],
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
+        }
+    }
+}
