@@ -23,9 +23,9 @@
             "id": 1,
             "img": "",
             "faIcon": "fa-brands fa-cloudflare",
-            "faIconColors": {"bg": "",  "fill": ""},
+            "light": {"bg": "#ffffff", "fill": "#1572B6"},
+            "dark": {"bg": "#111111", "fill": "#ffffff"},
             "date": {"year": null, "month": null},
-            "link": {"href": "https://apple.com", "tooltipString": "open_website"},
             "locales": {
                 "en": {
                     "title": "{{IT Service Management}}",
