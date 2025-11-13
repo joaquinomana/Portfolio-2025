@@ -23,3 +23,28 @@ $fa-font-path: "@fortawesome/fontawesome-free/webfonts";
 @import "customization/primitives-customization";
 @import "customization/bootstrap-customization";
 @import "customization/plugin-customization";
+
+/* ===== FIX FOR COMPANY LOGO CROPPING ===== */
+.experience-logo,
+.timeline-logo,
+[class*="experience"] img,
+[class*="timeline"] img,
+.company-logo-image {
+    width: 95% !important;
+    height: 95% !important;
+    object-fit: contain !important;
+    padding: 2.5% !important;
+    background: black !important; /* Changed from white to black */
+    border-radius: 50% !important;
+}
+
+/* Alternative selectors for logo containers */
+div[class*="experience"] img,
+div[class*="timeline"] img,
+div[class*="logo"] img {
+    object-fit: contain !important;
+    max-width: 95% !important;
+    max-height: 95% !important;
+    margin: auto !important;
+    background: black !important; /* Added black background here too */
+}

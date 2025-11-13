@@ -9,5 +9,71 @@
             }
         }
     },
-    "articles": []
+    "articles": [
+        {
+    "id": 1,
+    "component": "ArticleInfoList",
+    "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+    },
+    "locales": {
+        "en": {"title": "Send me a {{message}}"}
+    },
+    "items": [
+        {
+            "id": 1,
+            "faIcon": "fa-solid fa-envelope",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": "joaquinomana2021@gmail.com",
+            "link": {"href": "mailto:joaquinomana2021@gmail.com", "tooltipString": "email_me"},
+            "locales": {
+                "en": {
+                    "title": "G-mail",
+                    "text": ""
+                }
+            }
+        },
+        {
+            "id": 2,
+            "faIcon": "fa-brands fa-github",
+            "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+            "label": "joaquinomana",
+            "link": {"href": "https://github.com/joaquinomana", "tooltipString": "open_website"},
+            "locales": {
+                "en": {
+                    "title": "Github",
+                    "text": ""
+                }
+            }
+        },
+        {
+            "id": 3,
+            "faIcon": "fa-brands fa-facebook",
+            "faIconColors": {"bg": "",  "fill": "" },
+            "label": "joaquin.omana",
+            "link": {"href": "https://www.facebook.com/joaquin.omana/", "tooltipString": "open_website"},
+            "locales": {
+                "en": {
+                    "title": "Facebook",
+                    "text": ""
+                }
+            }
+        },
+        {
+            "id": 4,
+            "faIcon": "fa-solid fa-phone",
+            "faIconColors": {"bg": "",  "fill": "" },
+            "label": "+639209481032",
+            "link": {"href": "tel:09209481032", "tooltipString": "call_me"},
+            "locales": {
+                "en": {
+                    "title": "Phone",
+                    "text": ""
+                }
+            }
+        }
+    ]
+}
+    ]
 }

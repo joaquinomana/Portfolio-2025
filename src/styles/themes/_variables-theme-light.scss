@@ -33,30 +33,31 @@
 
 @import "theme-variables-builder";
 
-$primary: #6c43e0; // DXC-style purple for highlights/buttons
-$secondary: #9b8be0; // lighter purple accent
-$dark: #2c2c2c; // dark text / headings
-$danger: #e74c3c; // red for alerts/errors
-$muted: #7b7b7b; // muted gray text
+$primary: #6c43e0; // Main purple
+$secondary: #9b8be0; // Light purple accent
+$dark: #ffffff; // Deepened to improve contrast
+$danger: #e74c3c; // Red alerts
+$muted: #8a84a2; // Muted text tone with a purple tint
 
-$base-bg: #ffffff; // main background
-$base-bg-light: #f6f5fc; // light sections / cards
-$base-bg-dark: #eceaf8; // slightly darker sections
+$base-bg: #f4f2fb; // Lighter main background for contrast
+$base-bg-light: #f9f8fe; // Light cards/sections
+$base-bg-dark: #e6e0f7; // Slightly darker panels
 
-$texts: #2c2c2c; // main text (dark)
-$texts-inverted: #ffffff; // inverted (on primary/dark bg)
+$texts: #2a223d; // Main dark text (reads well on light purple)
+$texts-inverted: #ffffff; // Text/icons on purple or dark areas
 
-$base-container-bg: #f6f5fc; // container/cards
-$base-container-bg-accent: #e8e3fc; // hover/accent
-$base-popover-bg: #ffffff; // popovers/modals
-$base-boards: #f3f2fb; // board/panel background
-$base-info-badges: #ded6fc; // subtle badges
-$empty: #fafafa; // empty state bg
+$base-container-bg: #f4f2fb; // Card background
+$base-container-bg-accent: #e5dcfa; // Hover/accent
+$base-popover-bg: #ffffff; // Popovers/modals
+$base-boards: #ede9fb; // Board/panel background
+$base-info-badges: #d8ccf6; // Soft badge background
+$empty: #fafafa; // Empty state
 
-$borders: #d0cde6; // soft gray-purple borders
+$borders: #d4c8ef; // Subtle border tone
 $borders-nav-mobile: rgba(#2c2c2c, 0.1);
 $borders-nav-mobile-accent: rgba(#2c2c2c, 0.2);
-$scrollbar-track: #f0f0f0;
+
+$scrollbar-track: #eee9fc;
 $scrollbar-thumb: #9b8be0;
 
 
