@@ -89,7 +89,7 @@
             "id": 1,
             "img": "",
             "faIcon": "fa-brands fa-",
-            "faIconColors": {"bg": "#000", "bgLight": "#000", "fill": "#FFF", "fillLight": "#FFF"},
+            "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
             "date": {"year": 2023, "month": 1},
             "link": {"href": "", "tooltipString": ""},
             "locales": {
@@ -104,13 +104,53 @@
             "id": 2,
             "img": "",
             "faIcon": "fa-brands fa-microsoft",
-            "faIconColors": {"bg": "red", "bgLight": "red", "fill": "white", "fillLight": "white"},
+            "faIconColors": {"bg": "", "bgLight": "", "fill": "white", "fillLight": "black"},
             "date": {"year": 2019, "month": 5},
             "link": {"href": "", "tooltipString": ""},
             "locales": {
                 "en": {
                     "title": "{{Microsoft}} Technology Associate: Networking Fundamentals",
                     "text": "As a Microsoft Technology Associate in Networking Fundamentals, I gained a solid understanding of core networking concepts, including network infrastructure, protocols, and troubleshooting techniques. This certification strengthened my ability to design, configure, and maintain reliable networks."
+                }
+            }
+        }
+        
+    ]
+},
+{
+    "id": 1,
+    "component": "ArticleInfoList",
+    "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+    },
+    "locales": {
+        "en": {"title": "{{Personal}} Interests"}
+    },
+    "items": [
+        {
+            "id": 1,
+            "faIcon": "fa-solid fa-gamepad",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": null,
+            "link": {"href": null, "tooltipString": null},
+            "locales": {
+                "en": {
+                    "title": "{{Gaming}}",
+                    "text": "I enjoy gaming, especially exploring how AI and new technologies are shaping smarter, more immersive experiences in 2025."
+                }
+            }
+        },
+        {
+            "id": 2,
+            "faIcon": "fa-solid fa-microchip",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": "Google",
+            "link": {"href": null, "tooltipString": null},
+            "locales": {
+                "en": {
+                    "title": "{{AI}} Tools",
+                    "text": "I enjoy exploring AI and using its tools to enhance my skills, creativity, and daily projects."
                 }
             }
         }
