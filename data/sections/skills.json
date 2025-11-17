@@ -42,7 +42,7 @@
             "link": {"href": "", "tooltipString": ""},
             "locales": {
                 "en": {
-                    "title": "{{MySQL}} Database",
+                    "title": "{{Database}} Management",
                     "text": "Experienced in managing MySQL databases for retail operations, including connecting POS machines, maintaining servers, and checking sales discrepancies to ensure accurate reporting."
                 }
             }
@@ -132,7 +132,7 @@
             "locales": {
                 "en": {
                     "title": "SQL",
-                    "text": "blablabla.",
+                    "text": "Gained experience supporting RSO tasks through data management, record updates, and general database operations.",
                     "level": ""
                 }
             }
@@ -146,7 +146,7 @@
             "locales": {
                 "en": {
                     "title": "C++",
-                    "text": "blablabla.",
+                    "text": "Gained experience on an understanding level.",
                     "level": ""
                 }
             }
@@ -159,8 +159,36 @@
             "date": {"year": 2024, "month": 1},
             "locales": {
                 "en": {
-                    "title": "Python`",
-                    "text": "blablabla.",
+                    "title": "Python",
+                    "text": "Gained experience on an understanding level.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 6,
+            "img": "",
+            "faIcon": "fa-brands fa-js",
+            "faIconColors": {"bg": "",  "fill": "#D4A017"},
+            "date": {"year": 2024, "month": 1},
+            "locales": {
+                "en": {
+                    "title": "JavaScript",
+                    "text": "Gained experience on an understanding level.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 6,
+            "img": "",
+            "faIcon": "fa-brands fa-react",
+            "faIconColors": {"bg": "",  "fill": "#D4A017"},
+            "date": {"year": 2024, "month": 1},
+            "locales": {
+                "en": {
+                    "title": "ReactJS",
+                    "text": "Gained experience on an understanding level.",
                     "level": ""
                 }
             }
